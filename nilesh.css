@@ -1,0 +1,580 @@
+.reuest_otp_btn{
+    width: 100%;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(75, 75, 75);
+	opacity: 1; /* Firefox */
+}
+
+.gmail_btn{
+	float: left;
+	padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+	height: 40px;
+	color: rgb(224, 62, 62);
+	border: 1px solid rgb(224, 62, 62);
+}
+.gmail_btn:hover{
+	border: 1px solid rgb(224, 62, 62);
+	background-color: rgb(224, 62, 62);
+	color: rgb(255, 255, 255);
+}
+.facebook_btn:hover{
+	border: 1px solid rgb(1 54 204);
+	background-color: rgb(1 54 204);
+	color: rgb(255, 255, 255);
+}
+.facebook_btn{
+	float: right;
+	padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+	height: 40px;
+	color: rgb(1 54 204);
+	border: 1px solid rgb(1 54 204);
+}
+#register_form>div>label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500 !important;
+    color: #949494 !important;
+}
+
+#register_form>div>input{
+	border: 1px solid #cccccc9c !important;
+}
+#register_form{
+	border-bottom:1px solid #9e9e9e;
+}
+
+
+#sign_in_form>div>label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500 !important;
+    color: #949494 !important;
+}
+
+#sign_in_form>div>input{
+	border: 1px solid #cccccc9c !important;
+}
+#sign_in_form{
+	border-bottom:1px solid #9e9e9e;
+}
+
+.btn_register_submit{
+	width: 100%;
+	color: white;
+	background-color: #019fb0;
+	border: 1px solid #019fb0;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#modal_ul > .active > a {
+	color: #019fb0 !important;
+	border-bottom: 3px solid #019fb0 !important;
+	
+}
+/* #modal_ul > li.active > a{
+    color: red;
+} */
+#modal_ul>li>a::before{
+	color: #000000 !important;
+}
+ #modal_ul>li>a:focus, #modal_ul>li>a:hover {
+    color: #019fb0 !important;
+    /* background-color: #e7e7e7; */
+}
+
+#modal_ul>li>a:after{
+	color: #019fb0 !important;
+	/* border-bottom: 3px solid #019fb0 !important; */
+	content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    height: 0.15em !important;
+    background-color: #019FB0;
+    /* opacity: 0; */
+    transition: opacity 300ms, transform 300ms;
+}
+/*  */
+#modal_ul>ul>li{
+	color: black !important;
+}
+/* * {
+	font-family: 'Segoe UI';
+}
+
+.header_row_1 {
+	background-color: #FAFAFA;
+	color: black;
+	height: 30px;
+} */
+
+* {
+	font-family: 'Segoe UI';
+	/* 'PT Sans Narrow', sans-serif; */
+}
+
+.user_info{
+	line-height: 55px !important;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+ div.header_row_2 > div.header_container_2 > div.account {
+	margin-left: 50px;
+	/* line-height: 60px !important;  */
+}
+
+div.header_row_2 > div.header_container_2 > div.account,
+div.header_row_2 > div.header_container_2 > div.wishlist,
+div.header_row_2 > div.header_container_2 > div.cart  {
+  	width: 6%;
+	margin-top: -10px;
+	/* margin-left: 50px; */
+    margin-right: -20px;
+	line-height: 66px !important;
+}
+/* h4{
+	font-weight: 800 !important;
+} */
+.text_account{
+	margin-top: -20px;
+	color: black;
+	font-size: 9px;
+	margin-left: 5.3%;
+}
+.text_wishlist{
+	margin-top: -20px;
+	color: black;
+	font-size: 9px;
+	margin-left: 5.3%;
+}
+.text_cart{
+	margin-top: -20px;
+	color: black;
+	font-size: 9px;
+	margin-left: 5.3%;
+}
+.product_explore_data {
+	position: absolute;
+    /* top: 81%; */
+    left: 25%;
+    bottom: -22px;
+    transform: translate(-50%, -50%);
+    /* background: #00000073; */
+    color: white;
+	
+  }
+.mens_wear_data{
+	position: absolute;
+    /* top: 81%; */
+    left: 48%;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    /* background: #00000073; */
+    color: white;
+}
+.womens_wear_data{
+    position: absolute;
+    /* top: 81%; */
+    left: 45%;
+    bottom: -12px;
+    transform: translate(-50%, -50%);
+    /* background: #00000073; */
+    color: white;
+}
+.shop_by_category_images{
+	padding-left: 86px;
+	padding-right: 25px;
+}
+.view_all_text{
+	padding-right: 0px;
+	/* margin-right: -13px; */
+	margin-left: -20px;
+	padding-top: 10px;
+}
+.kuetas_wear_data{
+	position: absolute;
+    /* top: 81%; */
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    /* background: #00000073; */
+    color: white;
+}
+.designer_data{
+	position: absolute;
+    /* top: 81%; */
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    /* background: #00000073; */
+    color: white;
+}
+.kuetas_wear_btn{
+	color: #fff;
+    background-color: #fff0;
+    border-color: #ccc0;
+    margin-top: -10px;
+    /* margin-left: -29px; */
+}
+.kuetas_wear_btn:hover {
+    color: #fff;
+    background-color: #e6e6e600;
+    border-color: #adadad;
+}
+.jumbotron{
+	background-color: rgba(255, 244, 244, 0);
+}
+.header_row_10{
+	padding-left: 100px;
+    padding-right: 30px;
+	padding-bottom: 30px;
+}
+.nav_class{
+    background-color: #e9ebec !important;
+    height: 30px;
+}
+.company_name{
+    color: #019FB0;
+}
+.footer_border{
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.footer_font{
+    color: #252525!important;
+}
+/*account{
+	line-height: 0px !important;
+}
+.wishlist{
+	line-height: 0px !important;
+}
+.cart{
+	line-height: 0px !important;
+} */
+/* .product_explore_header{
+    max-width: 60px;
+} */
+.product_explore_image_content{
+	max-width: 110px;
+	font-size: 15px;
+}
+.product_explore_main_div{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.collection_btn{
+    color: #fff;
+    background-color: #fff0;
+    border-color: #ccc0;
+	margin-top: -10px;
+	margin-left: -12px;
+}
+
+.mens_wear_btn{
+	color: #fff;
+    background-color: #fff0;
+    border-color: #ccc0;
+    margin-top: -10px;
+    margin-left: -12px;
+}
+.womens_wear_btn{
+	color: #fff;
+    background-color: #fff0;
+    border-color: #ccc0;
+    margin-top: -10px;
+    margin-left: -5px;
+
+}
+.collection_btn:hover {
+    color: #fff;
+    background-color: #e6e6e600;
+    border-color: #adadad;
+}
+.mens_wear_btn:hover {
+    color: #fff;
+    background-color: #e6e6e600;
+    border-color: #adadad;
+}
+.womens_wear_btn:hover {
+    color: #fff;
+    background-color: #e6e6e600;
+    border-color: #adadad;
+}
+
+.header_row_1 {
+	background-color: #FAFAFA;
+	color: black;
+	height: 30px;
+}
+
+.header_container_1 {
+	width: 80%;
+	padding-top: 5px;
+}
+
+#currency_dropdown, #language_dropdown {
+	min-width: 4.2%;
+}
+
+#currency_dropdown > li > a,
+#language_dropdown > li > a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.85em;
+}
+
+#currency_selected, #language_selected {
+	font-size: 0.85em;
+}
+
+i {
+	color: black;
+}
+
+.header_container_2 {
+	height: 70px;
+	line-height: 70px;
+	width: 80.4%;
+	/*background-color: #028521;*/
+}
+
+div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > input#search_box {
+	height: 38px;
+}
+
+div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > .form-control,
+div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > div.input-group-btn > button.btn-default{
+	border-radius: 0px;
+}
+
+div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > div.input-group-btn > button.btn-default{
+	width: 3.7em;
+	height: 38px;
+}
+
+div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > div.input-group-btn > button.btn-default {
+	background-color: #019FB0;
+}
+
+div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > div.input-group-btn > button.btn-default > i {
+	color: white;
+}
+
+#about_dwear_image{
+	padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar-nav {
+	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+#banner_image {
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+div.header_row_5 > div.header_container_5 > div > img {	
+	background-size: cover;
+	height: 250px;
+	width: 80%;
+
+}
+
+div.header_row_5 > div.header_container_5 > div > #text {
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+}
+
+div.header_row_6 {
+	margin-bottom: 40px;
+	padding-top: 30px;
+}
+
+div.header_row_8 > div.header_container_8 > div.box > img{
+	width: 100%;
+	height: 315px;
+}
+
+.header_row_7 {
+	background-image: url("img/dwear-bg.png");
+	background-size: cover;
+	height: 400px;
+}
+.header_row_7{
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.3em;
+	background-color: #019FB0;
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
+.navbar-default .navbar-nav > li > a:hover::after,
+.navbar-default .navbar-nav > li > a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: white;
+}
+
+.footer_row > .footer_container > div > ul > li {
+	/* font-family: 'Signika Negative', sans-serif; */
+	font-size:12px;
+	color:#707070;
+}
+
+.footer_row > .footer_container > div > ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer_row > .footer_container > div > p.footer_column_2_header,
+.footer_row > .footer_container > div > p.footer_column_3_header,
+.footer_row > .footer_container > div > p.footer_column_4_header {
+	font-weight: bold;
+	/* font-family: 'Signika Negative', sans-serif; */
+	font-size:13px;
+	margin-left: 25%;
+}
+
+.footer_row > .footer_container > div > p.footer_column_4_header {
+	margin-left: 16%;
+}
+
+.copyright_row {
+	/* font-family: 'Signika Negative', sans-serif; */
+	font-size:12px;
+	color:#707070;
+}
+.header_currency{
+	width: 6%;
+}
+.fb_header_logo {
+	font-size:0.85em;margin-left:100%;
+}
+.insta_header_logo{
+	font-size:0.85em;
+}
+
+.cart_product_info{
+	min-height: 135px;
+    max-height: 135px;
+    border: 1px solid #ccc8c8;
+    margin-left: 15px;
+	margin-bottom: 10px;
+}
+.quntity_manage{
+	/* width: 10%;
+	border: 1px solid #d4d4d4;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px; */
+}
+#coupon_code_box::-webkit-input-placeholder {
+    font-size: 10px;
+    /* line-height: 3; */
+}
+.btn_plus{
+	border-left: 0px;
+	color: #797979;
+    background-color: #ffffff;
+    border-color: #cacaca;
+}
+.btn_minus{
+	color: #777;
+    background-color: #fbfbfb;
+    border-color: #c5c5c5;
+	border-right: 0px;
+}
+#quantity{
+	border-left: 0px;
+    border-right: 0px;
+}
+
+.btn_minus.active.focus, .btn_minus.active:focus, .btn_minus.focus, .btn_minus:active.focus, .btn_minus:active:focus, .btn_minus:focus{
+	outline: 1px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.btn_plus.active.focus, .btn_plus.active:focus, .btn_plus.focus, .btn_plus:active.focus, .btn_plus:active:focus, .btn_plus:focus{
+	outline: 1px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+@media screen and (max-width: 401px) {
+	.header_currency{
+		width: 17% !important;
+	}
+    .header_container_1 {
+		width: 100%;
+		padding-top: 5px;
+	}
+	.fb_header_logo {
+		font-size:0.85em;
+		padding-left: 10px;
+		/* padding-top: 1px; */
+	}
+	.insta_header_logo{
+		font-size:0.85em;
+		padding-left: 20px;
+		height: 18px;
+	}
+	.header_container_2{
+		width:100%;
+	}
+	#website_logo{
+		padding-left: 0px;
+	}
+
+	div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > input#search_box {
+		height: 30px;
+	}
+	div.header_row_2 > div.header_container_2 > div.col-md-7 > form > div.input-group > div.input-group-btn > button.btn-default {
+		height: 30px;
+	}
+  }
+
+
