@@ -20,7 +20,62 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
   </head>
-  <style></style>
+  <style>
+ .display_slide_img img {
+    width: 90%;
+    height: 400px;
+}
+.display_slide_img2 img{
+    width: 100%;
+    height: 150px;
+}
+.Recult_item_count p {
+    margin-top: 5px;
+}
+span.item_div2 {
+    border: 1px solid #d3d1d1;
+    padding: 5px;
+    height: 35px;
+}
+    .pagination .page-item {
+    margin-right: 10px;
+    width: 40px;
+    text-align: center;
+}
+li.page-item2 {
+    width: 100%;
+    text-align: center;
+}
+.heading_content {
+    display: flex;
+    justify-content: space-between;
+}
+li.active_size{
+    border: 1px solid #3d9fb1;
+    color: #3d9fb1 !important;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.profile_img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.profile_img {
+    text-align: center;
+}
+.social_icons img {
+    margin: auto 10px;
+}
+  </style>
   <body>
     <header>
       <div class="container my-2">
@@ -66,18 +121,15 @@
                   <div class="row">
                       <div class="header_icon col-md-4">
                           <a href="#" data-toggle="modal" data-target="#exampleModal">
-                              <!-- <i class="fa fa-user" aria-hidden="true"></i> -->
                               <img src="./img/account.png" alt="account">
                               <label for="">Account</label>
                           </a>                            
                       </div>
                       <div class="header_icon col-md-4">
-                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
                           <img src="./img/heart.png" alt="heart">
                           <label for="">Wishlist</label>
                       </div>
                       <div class="header_icon col-md-4">
-                          <!-- <i class="fa fa-shopping-cart" aria-hidden="true"></i> -->
                           <img src="./img/cart.png" alt="cart">
                           <label for="">Cart</label>
                       </div>
@@ -97,7 +149,7 @@
                           <a class="nav-link my_effect" href="#">HOME</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link my_effect active" href="./index.html">DESIGNER</a>
+                          <a class="nav-link my_effect" href="./index.html">DESIGNER</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link my_effect" href="./index2.html">APPERAL <i class="fa fa-angle-down"
@@ -118,7 +170,7 @@
       <div class="container">
         <div class="row">
           <span class="breadcrumb-item"><a style="font-size: 13px;margin: 2px 5px;">Home</a></span> <i class="fa fa-angle-right mt-1" aria-hidden="true"></i>
-          <span class="breadcrumb-item"><a style="font-size: 13px;margin: 2px 5px;">APPERAL</a></span> 
+          <span class="breadcrumb-item"><a style="font-size: 13px;margin: 2px 5px;">Ethnic Wear</a></span> 
         </div>
       </div>
     </section>
@@ -127,222 +179,150 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <div class="card card-2">
-              <h6>Category</h6>
-              <br>
-              <h6>Size</h6>
-              <div class="check_box_main">
-                <div class="check_box">
-                  <form>
-                    <div class="row">
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="XS" value="XS">
-                        <label for="fruit1">XS</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="S" value="S">
-                        <label for="fruit1">S</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="M" value="M">
-                        <label for="fruit1">M</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="L" value="L">
-                        <label for="fruit1">L</label>                      
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="check_box">
-                  <form>
-                    <div class="row">
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="XL" value="XL">
-                        <label for="fruit1">XL</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="XXL" value="XXL">
-                        <label for="fruit1">XXL</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="3XL" value="3XL">
-                        <label for="fruit1">3XL</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="4XL" value="4XL">
-                        <label for="fruit1">4XL</label>                      
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="check_box">
-                  <form>
-                    <div class="row">
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="5XL" value="5XL">
-                        <label for="fruit1">5XL</label>                      
-                      </div>
-                      <div class="col-3 pr-0">
-                        <input type="checkbox" id="6XL" value="6XL">
-                        <label for="fruit1">6XL</label>                      
-                      </div>
-                      <div class="col-6">
-                        <input type="checkbox" id="Free_size" value="Free Size">
-                        <label for="fruit1">Free Size</label>                      
-                      </div>
-                    </div>
-                  </form>
-                </div>
+          <div class="col-md-6">
+           <div class="row">
+             <div class="col-3">
+              <div class="display_slide_img2">
+                <img src="./img/Sarees3.jpg" alt="Sarees3">
+                <br>
+                <br>
+                <img src="./img/Sarees3.jpg" alt="Sarees3">
+              </div> 
+             </div>
+             <div class="col-9">
+              <div class="display_slide_img">
+                <img src="./img/Sarees3.jpg" alt="Sarees3">
+              </div> 
+             </div>
+           </div>           
+          </div>
+          <div class="col-md-6">
+              <div class="heading_content">
+                <h4>Banarasi silk saree </h4> 
+              <div class="img_my_outer_div">
+                <img src="./img/heart.png" alt="heart">
               </div>
-              <br>
-              <h6>color</h6>
-              <div class="color">
-                <div id="red"></div>
-                <div id="yellow"></div>
-                <div id="blue"></div>
-                <div id="green"></div>
-                <div id="mint"></div>
+            </div>
+            <p><b>₹ 34,000</b></p>
+            <br>
+            <p>Select Your size:</p>
+            <div class="row">
+              <div class="col-12">
+                  <nav aria-label="...">
+                      <ul class="pagination pagination-sm">
+                        <li class="active_size page-item"><a class="page-link" href="#">XS</a></li>
+                        <li class="page-item"><a class="page-link" href="#">S</a></li>
+                        <li class="page-item"><a class="page-link" href="#">M</a></li>
+                        <li class="page-item"><a class="page-link" href="#">L</a></li>
+                        <li class="page-item"><a class="page-link" href="#">XL</a></li>
+                        <li class="page-item"><a class="page-link" href="#">XXL</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3XL</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4XL</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5XL</a></li>
+                        <br>
+                        <li class="page-item2"><a class="page-link" href="#">Custom Size</a></li>
+                      </ul>
+                  </nav>
               </div>
-              <div class="colorName">
-                <label for="">Red</label>
-                <label for="">Yellow</label>
-                <label for="">Blue</label>
-                <label for="">Green</label>
-                <label for="">Mint</label>
-              </div>
-              <br>
-              <h6>Designer</h6>
-              <select class="mySelect for" multiple="multiple">
-              </select>
-              <br>
-              <h6>Occasions</h6>
-              <select class="mySelect for" multiple="multiple">
-              </select>
-              <br>
-              <h6>Discount</h6>
-              <div class="check_box_main">
-                <div class="Discount">
-                  <form>
-                    <div class="row">
-                      <div class="col-6 pr-0">
-                        <input type="checkbox" id="" value="">
-                        <label for="fruit1">0% - 20%</label>                      
-                      </div>
-                      <div class="col-6 pr-0">
-                        <input type="checkbox" id="" value="">
-                        <label for="fruit1">21% - 40%</label>                      
-                      </div> 
+          </div>
+          <div class="Recult_item_count d-flex">
+            <p>Quantity:</p>
+           <span class="item_div2 ml-2">
+                <button onclick="decrement()">-</button>
+                <input id='demoInput' type='number' value=1 min=0 max=110>
+                <button onclick="increment()">+</button>
+           </span>
+          </div>
+          <div class="row">
+            <div class="col-6">
+                <button type="submit" class="payment_button_accordian" >BUY NOW</button>
+            </div>
+            <div class="col-6">
+                <button type="submit" class="payment_button_accordian3" >ADD TO CART</button>
+            </div>
+        </div>
+        <br>
+        <br>
+          <div class="row">
+            <div class="col-12">
+              <div id="accordion11" class="accordion">
+                <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne11">
+                        <a class="card-title"> Description </a>
                     </div>
-                    <div class="row">
-                      <div class="col-6 pr-0">
-                        <input type="checkbox" id="" value="">
-                        <label for="fruit1">41% - 60%</label>                      
-                      </div> 
-                    </div>
-                  </form>
+                    <div id="collapseOne11" class="card-body collapse" data-parent="#accordion11">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry. </p>
+                    </div>                    
                 </div>
-              </div>
-              <br>
-              <h6>Delivery Time</h6>
-              <div class="check_box_main">
-                <div class="Delivery">
-                  <form>
-                    <div class="row">
-                      <div class="col-6 pr-0">
-                        <input type="checkbox" id="" value="">
-                        <label for="fruit1">7 Days</label>                      
-                      </div>
-                      <div class="col-6 pr-0">
-                        <input type="checkbox" id="" value="">
-                        <label for="fruit1">1 - 2 weeks</label>                      
-                      </div> 
-                    </div>
-                    <div class="row">
-                      <div class="col-6 pr-0">
-                        <input type="checkbox" id="" value="">
-                        <label for="fruit1">2 - 3 weeks</label>                      
-                      </div> 
-                    </div>
-                  </form>
-                </div>
-              </div>
+            </div>
             </div>
           </div>
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-9">
-                <h6>Showing(6 products)</h6>
-              </div>
-              <div class="col-3">
-                <div class="select">
-                  <select name="slct" id="slct">
-                    <option selected disabled>sort by: Popular</option>
-                    <option value="1">Pure CSS</option>
-                    <option value="2">No JS</option>
-                    <option value="3">Nice!</option>
-                  </select>
+          <br>
+          <div class="row">
+            <div class="col-12">
+              <div id="accordion12" class="accordion">
+                <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne12">
+                        <a class="card-title"> Reviews (2) </a>
+                    </div>
+                    <div id="collapseOne12" class="card-body collapse" data-parent="#accordion12">
+                      <div class="row">
+                        <div class="col-2">
+                          <div class="profile_img">
+                            <img src="./img/pro1.jpeg" alt="pro1">
+                          </div>
+                        </div>
+                        <div class="col-10">
+                          <div class="pro_name">
+                            <b>Alix</b>
+                          </div>
+                          <div class="star_review">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star1.png" alt="star1">
+                            <img src="./img/star2.png" alt="star2">
+                          </div>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. non reprehenderit aut id fugiat ipsam consequatur! Error corporis odio sit?</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-2">
+                          <div class="profile_img">
+                            <img src="./img/pro2.jpeg" alt="pro1">
+                          </div>
+                        </div>
+                        <div class="col-10">
+                          <div class="pro_name">
+                            <b>Jack</b>
+                          </div>
+                          <div class="star_review">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star.png" alt="star">
+                            <img src="./img/star2.png" alt="star2">
+                          </div>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. non reprehenderit aut id fugiat ipsam consequatur! Error corporis odio sit?</p>
+                        </div>
+                      </div>
+                    </div>                    
                 </div>
-              </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="display">
-                  <img src="./img/Sareee1.jpg" alt="1">
-                  <h6>Aliya</h6>
-                  <p><small>Lorem ipsum dolor sit amet.</small> </p>
-                  <small class="price"> <b>₹ 19,400</b> <span class="offer">(20% OFF)</span> </small>                
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="display">
-                  <img src="./img/saree2.jpg" alt="2">
-                  <h6>Aliya</h6>
-                  <p><small>Lorem ipsum dolor sit amet.</small> </p>
-                  <small class="price"> <b>₹ 19,400</b> <span class="offer">(20% OFF)</span> </small>                
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="display">
-                  <img src="./img/Sarees3.jpg" alt="3">
-                  <h6>Aliya</h6>
-                  <p><small>Lorem ipsum dolor sit amet.</small> </p>
-                  <small class="price"> <b>₹ 19,400</b> <span class="offer">(20% OFF)</span> </small>                
-                </div>
-              </div>
             </div>
-            <br>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="display">
-                  <img src="./img/Sareee1.jpg" alt="1">
-                  <h6>Aliya</h6>
-                  <p><small>Lorem ipsum dolor sit amet.</small> </p>
-                  <small class="price"> <b>₹ 19,400</b> <span class="offer">(20% OFF)</span> </small>                
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="display">
-                  <img src="./img/saree2.jpg" alt="2">
-                  <h6>Aliya</h6>
-                  <p><small>Lorem ipsum dolor sit amet.</small> </p>
-                  <small class="price"> <b>₹ 19,400</b> <span class="offer">(20% OFF)</span> </small>                
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="display">
-                  <img src="./img/Sarees3.jpg" alt="3">
-                  <h6>Aliya</h6>
-                  <p><small>Lorem ipsum dolor sit amet.</small> </p>
-                  <small class="price"> <b>₹ 19,400</b> <span class="offer">(20% OFF)</span> </small>                
-                </div>
-              </div>
+          </div>
+          <hr style="width: 100% !important; color: #dbd3d3 !important;margin-left: 0;">
+            <div class="social_icons">
+              <img src="./img/social.png" alt="social">
+              <img src="./img/social2.png" alt="social2">
+              <img src="./img/social3.png" alt="social3">
+              <img src="./img/social4.png" alt="social4">
             </div>
           </div>
         </div>
       </div>
+      <br>
+      <br>
     </section>
       <!-- modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -428,24 +408,13 @@
     </div>
   </body>
   <script>
-    var Designer = ["Aliya", "Manish Malhotra", "Cherry", "Date", "ElderberriesElderberry"]; // Programatically-generated options array with > 5 options
-var placeholder = " Search";
-$(".mySelect").select2({
-    data: Designer,
-    placeholder: placeholder,
-    allowClear: false,
-    minimumResultsForSearch: 5
-});
-
-var Occasions = ["Party", "Wedding", "Puja", "Bride", "Holidays"]; // Programatically-generated options array with > 5 options
-var placeholder = " Search";
-$(".mySelect").select2({
-    data: Occasions,
-    placeholder: placeholder,
-    allowClear: false,
-    minimumResultsForSearch: 5
-});
-  </script>
+    function increment() {
+        document.getElementById('demoInput').stepUp();
+    }
+    function decrement() {
+        document.getElementById('demoInput').stepDown();
+    }
+</script>
 </html>
 
 

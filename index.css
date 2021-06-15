@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+p,h1,h2,h3,h4,h5,b,small,span,a{
+  font-family: 'Roboto', sans-serif !important;
+}
+a ,a:hover{
+  color: #000;
+  text-decoration: none;
+}
   select {
     word-wrap: normal;
     border: none;
     background: white;
+    outline: none;
+  }
+  button{
+    outline: none !important;
+    box-shadow:none !important
   }
   /* logo */
   h4.logo {
@@ -68,7 +82,7 @@
   ul li a {
     color: black;
   }
-  ul li {
+  ul.navbar-nav li.nav-item {
     margin: auto 10px;
   }
   a.nav-link.my_effect {
@@ -305,8 +319,23 @@ transform: translate(-50%, -50%);
 label.tab-item {
 text-align: center;
 }
-.form-group label {
-margin-left: 50px;
+.form-group.form-group2abhay label{
+    margin-left: 3rem;
+}
+.form-group.form-group2abhay input {
+  width: 80% !important;
+  margin: auto;
+  }
+  input.form-check-input.my_check_box {
+    margin-left: -83px;
+    margin-top: 4px;
+}
+input.form-check-input.register_agree {
+  margin-left: -200px;
+  margin-top: 4px;
+}
+.form-group.form-group2abhay.text-righ {
+    float: right;
 }
 button.btn.btn-primary {
 width: 80%;
@@ -468,10 +497,6 @@ opacity: 0;
 -o-transition-delay: 0s;
 transition-delay: 0s;
 }
-.form-control {
-width: 80% !important;
-margin: auto;
-}
 .OTP {
 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -564,6 +589,167 @@ border: none;
   float: right; 
 }
 .accordion .card-header.collapsed:after {
-  /* symbol for "collapsed" panels */
   content: "\f107"; 
+}
+/* index 5 */
+
+.img_outer_div img {
+  width: 100%;
+  height: 120px;
+}
+.Recult_content p {
+  margin: 0;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+.Recult_item_count input {
+  text-align: center;
+  width: 40px;
+  border: none;
+}
+.Recult_item_count button {
+  border: none;
+  outline: none !important;
+}
+span.item_div {
+  border: 1px solid #d3d1d1;
+  padding: 5px;
+}
+span.offerprice span,span.offerprice b{
+  margin: 0 3px;
+  font-size: 13px;
+}
+span.offerprice del b,span.offerprice del{
+  margin: 0 3px;
+  font-size: 13px;
+  color: #c4c2c2;
+}
+.result_item_price {
+  text-align: end;
+  padding-right: 30px;
+}
+.result_outer_div {
+  border: 1px solid #dbd3d3;
+  padding: 9px;
+  width: 95%;
+  margin-top: 10px;
+}
+.result_outer_div small {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.result_outer_div2 small {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.ResultsearchButton {
+  width: 101px;
+  height: 33px;
+  border: 1px solid #019fb0;
+  background: #019fb0;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.ResultsearchTerm {
+  width: 100%;
+  border: 1px solid #e6e5e5;
+  border-right: none;
+  padding: 5px;
+  height: 33px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+  font-size: 13px;
+}
+i.fa.fa-times {
+  position: relative;
+  top: 66px;
+  color: gray;
+}
+.total_price{
+  display: flex;
+  justify-content: space-between;
+}
+.continue_shopping,.checkout{
+      width: 100%;
+      height: 33px;       
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      padding-bottom: 3px;
+  }
+/* index6 */
+
+b.price_tag27 {
+  font-size: 17px;
+}
+.result_outer_div2 {
+  border: 1px solid #dbd3d3;
+  padding: 9px;
+  width: 95%;
+  padding-bottom: 30px;
+}
+.summary_heading {
+  margin: 30px 0 6px 0;
+}
+.ResultsearchButton2 {
+  width: 101px;
+  height: 33px;
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+}
+.login_button_group {
+  margin-top: 20px;
+}
+.payment_accordion{
+  width: 98%;
+}
+.payment_button_accordian {
+  width: 100%;
+  height: 33px;
+  border: 1px solid #019fb0;
+  background: #019fb0;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.payment_button_accordian2 {
+  width: 100%;
+  height: 33px;
+  border: 1px solid #019fb0;
+  text-align: center;
+  color: #019fb0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.payment_button_accordian3 {
+  width: 100%;
+  height: 33px;
+  border: 1px solid #000;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+}
+.payment_card img{
+  margin: auto 10px;
 }
